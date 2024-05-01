@@ -1,0 +1,7 @@
+@import url("../../css/flex.css");
+
+.Header {
+    font-size: var(--font-xl);
+    font-weight: var(--font-bold);
+    color: var(--Black);
+}

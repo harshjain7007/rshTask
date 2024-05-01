@@ -1,0 +1,168 @@
+@import url("../../src/css/flex.css");
+@import url("../../src/css/form.css");
+
+
+
+.DivLoad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noData{
+    color: rgb(141, 139, 139) !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px !important;
+    width: 100% !important;
+}
+
+.formHead{
+    margin-bottom: 18px;
+}
+
+.formHead h1{
+    color: #0E062E;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+/* .formBigContent{
+    background: whitesmoke;
+} */
+
+.formContent{
+     background: white;
+}
+
+.formContent{
+    margin: 20px 0px;   
+    margin-bottom: 35px;
+}
+
+.placediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.placediv:hover{
+    border-color: #F04B28;
+    color: #F04B28;
+}
+
+.activePlace{
+    color: #F04B28 ;
+    border-color: #F04B28;
+}
+
+
+.iconHead{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.formHeadP{
+    font-size: 16px;
+    color: #AFAFAF;
+    font-weight: 500;
+}
+
+.formHeadSubP{
+    font-size: 14px;
+    color: #AFAFAF;
+    font-weight: 700;
+}
+
+.apartCont{
+    padding: 5px 0px;
+}
+
+.apartInput{
+    width: 70%;
+    border-bottom: 2px solid #F2F2F2;
+    margin-bottom: 30px;
+}
+
+.apartHeadP{
+    color: "#AFAFAF" !important;
+    font-weight: 500;
+    font-size: "14px";
+    margin-bottom: 8px;
+}
+
+.apartBtn{
+    border: 1px solid #AFAFAF;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0px 7px;
+}
+
+
+.guestIcon{
+    margin-top: "26px" !important;
+}
+
+.photoBtn{
+    background-color: #0E062E;
+    color: white;
+}
+
+
+/* /////// ----------   USER  ----  */
+
+.Custom_Width {
+    width: 100% ;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    .Custom_Width {
+        width: 100%;
+    }
+
+}
+
+.logLink{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.spanLogLink{
+    color: #EE5525;
+    cursor: pointer;
+
+}
+
+.permisHeadH1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.permisHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.readBtn:hover, .updateBtn:hover{
+    background: green !important;
+    color: white !important;
+}
+
+.activeBtnUs{
+    background: green !important;
+    color: white !important;
+}

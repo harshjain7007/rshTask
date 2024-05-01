@@ -1,0 +1,44 @@
+:root {
+    /* Font sizes */
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 20px;
+    --font-xxl: 24px;
+
+    /* Font weights */
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+    --font-black: 900;
+}
+
+/* Apply font size and font weight presets to different elements */
+body {
+    font-size: var(--font-md);
+    font-weight: var(--font-regular);
+}
+
+h1 {
+    font-size: var(--font-xxl);
+    font-weight: var(--font-bold);
+}
+
+h2 {
+    font-size: var(--font-xl);
+    font-weight: var(--font-medium);
+}
+
+h3 {
+    font-size: var(--font-lg);
+    font-weight: var(--font-medium);
+}
+
+p {
+    font-size: var(--font-md);
+    font-weight: var(--font-regular);
+}
+
+/* You can define more styles for different elements as needed */

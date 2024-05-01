@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    /* --Primary_Color: #6F61C0; */
+    --Primary_Color: #EE5525;
+    --Secondary_Color: #A084E8;
+    --Tershary: #A084E8;
+    /* --Tershary: #EE5525; */
+    --Black: rgb(34, 34, 34);
+    --White: #ffff;
+    --Slate: #bebebe;
+    --Error: rgb(248, 65, 65);
+    --Warning: rgb(227, 227, 87);
+    --disabledFilter: #6a6875;
+}

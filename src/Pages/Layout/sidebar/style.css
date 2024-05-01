@@ -1,0 +1,14 @@
+.MuiAccordionSummary-expandIconWrapper{
+    border-radius: 50%;
+    background-color: #F1F1F1;
+}
+
+.sideBarIcon{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.ps__rail-y, .ps__thumb-y{
+    height: 0px !important;
+}

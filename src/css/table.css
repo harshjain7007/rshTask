@@ -1,0 +1,14 @@
+.tableHead{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E062E;
+}
+
+.MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows, .MuiTablePagination-input{
+    margin: 0px !important;
+}
+
+.checkBox{
+    color: #F04B28 !important;
+    /* border-color: gray !important; */
+}

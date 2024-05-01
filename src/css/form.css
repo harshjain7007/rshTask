@@ -1,0 +1,74 @@
+@import url("./color.css");
+@import url("./font.css");
+@import url("./flex.css");
+
+.INPUT_FIELD {
+    border: 1px solid var(--Slate);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: var(--font-sm);
+    font-weight: var(--font-medium);
+}
+
+.label {
+    font-size: var(--font-md);
+    font-weight: var(--font-medium);
+    color: var(--Black);
+}
+
+._gap_5 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+._gap_20 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+._gap_bit {
+    gap: 5px
+}
+
+._Card {
+    background-color: white;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, .08);
+    padding: 40px;
+
+}
+
+.ER_BR {
+    border: 1px solid var(--Error);
+}
+
+.ER_MSG {
+    color: var(--Error);
+    font-size: var(--font-xs);
+    font-weight: var(--font-medium);
+
+}
+
+.Active_Button {
+    background-color: var(--Primary_Color);
+    color: var(--White);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: var(--font-md);
+    font-weight: var(--font-regular);
+    cursor: pointer;
+}
+
+.W_FULL {
+    width: 100%;
+}
+
+.Active_Button:hover {
+    background-color: #bd4621 !important;
+}
+
+.Active_Button:active {
+    background-color: #bd4621 !important;
+}

@@ -1,0 +1,105 @@
+@import url("../../../css/flex.css");
+@import url("../../../css/form.css");
+
+.imgContainer{
+
+}
+
+.myImage{
+    width: 100%;
+    height: 100%;
+}
+
+.myChild{
+    width: 50%;
+    padding: 40px;
+}
+
+.myContainer{
+    border: 2px solid darkgrey !important;
+    border-radius: 25px !important;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    height: 500px;
+}
+
+.myLogoImg{
+    flex-direction: column ;
+    align-items: flex-start;
+}
+
+.logText {
+ color: #399057 !important;
+ font-size: 20px;
+}
+
+.innerText{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.Active_Button{
+    background-color: #FDB92B !important;
+    color: white;
+}
+
+.logP{
+    margin: 0;
+    font-size: 12px;
+    color: #FDB92B;
+}
+
+.logoImg{
+    width: 16px !important;
+}
+.imgContainer{
+    height: 100%;
+}
+
+.Custom_Width {
+    width: 30% !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    .Custom_Width {
+        width: 80% !important;
+    }
+}
+
+.logLink{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.spanLogLink{
+    color: #EE5525;
+    cursor: pointer;
+
+}
+
+.eyeIn{
+    padding-right: 37px;
+}
+
+.eyeDiv{
+    position: relative;
+}
+
+.eyeIcon{
+    color: #FDB92B;
+    position: absolute;
+    right: 12px;
+    top: 60%;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* .css-bjzgnv-MuiAvatar-root{
+    border-radius: none !important;
+}
+
+.css-1pqm26d-MuiAvatar-img{
+    object-fit: cover !important;
+} */
